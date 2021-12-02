@@ -1,0 +1,11 @@
+.city__button {
+  grid-area: button;
+  max-width: 248px;
+  height: 48px;
+  line-height: 48px;
+  background-color: #0278fe;
+  color: #fff;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+}

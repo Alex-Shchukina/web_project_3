@@ -1,0 +1,8 @@
+.city__paragraph {
+  grid-area: paragraph;
+  max-width: 484px;
+  font-size: 18px;
+  line-height: 29.34px;
+  margin-bottom: 25px;
+  margin-top: 0;
+}

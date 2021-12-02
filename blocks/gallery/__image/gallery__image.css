@@ -1,4 +1,30 @@
 .gallery__image {
-  max-width: 284px;
-  max-height: 213px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
 }
+/*
+@media screen and (max-width: 1100px) {
+  .gallery__image {
+    width: 320px;
+    height: auto;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .gallery__image {
+    width: 352px;
+    height: 264px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .gallery__image {
+    width: 288px;
+    height: 216px;
+    padding: 0;
+  }
+} */
