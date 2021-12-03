@@ -9,3 +9,7 @@
   text-align: center;
   text-decoration: none;
 }
+
+.city__button:hover {
+  background-color: #0063d2;
+}
