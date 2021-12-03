@@ -7,3 +7,19 @@
   align-self: end;
   margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .city__title {
+    max-width: 340px;
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .city__title {
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}

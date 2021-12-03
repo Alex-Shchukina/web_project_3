@@ -6,3 +6,11 @@
   width: 100%;
   height: 100%;
 }
+
+.footer__image-overlay:hover {
+  background-color: rgba(40, 44, 47, 0.8);
+}
+
+.footer__button:hover .footer__image-overlay {
+  background-color: rgba(40, 44, 47, 0.8);
+}

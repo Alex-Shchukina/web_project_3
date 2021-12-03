@@ -1,0 +1,19 @@
+.footer__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 61%;
+  left: 44%;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 22px;
+  margin: 0;
+  text-align: center;
+  background-color: #0278fe;
+  border-radius: 4px;
+  width: 137px;
+  height: 48px;
+  color: white;
+  text-decoration: none;
+}

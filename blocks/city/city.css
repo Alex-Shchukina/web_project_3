@@ -1,5 +1,6 @@
 .city {
   display: grid;
+  justify-content: center;
   grid-template-rows: auto;
   grid-template-columns: 460px calc(100% - 460px);
   grid-column-gap: 40px;
@@ -13,4 +14,22 @@
 
 .city:last-child {
   margin-bottom: 92px;
+}
+
+@media screen and (max-width: 768px) {
+  .city {
+    grid-template-columns: 340px calc(100% - 340px);
+    margin: 0 auto 80px;
+    grid-column-gap: 28px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .city {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto 80px;
+  }
 }

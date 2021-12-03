@@ -1,0 +1,10 @@
+.footer__paragraph {
+  position: absolute;
+  top: 47%;
+  left: 39%;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0;
+  text-align: center;
+  width: 24%;
+}
