@@ -16,10 +16,22 @@
   }
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 680px) {
+  .city__title {
+    max-width: 310px;
+    font-size: 38px;
+    line-height: 40px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
+
+@media screen and (max-width: 380px) {
   .city__title {
     max-width: 288px;
     font-size: 32px;
     line-height: 35px;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }

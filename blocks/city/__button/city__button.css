@@ -1,6 +1,6 @@
 .city__button {
   grid-area: button;
-  max-width: 248px;
+  width: 248px;
   height: 48px;
   line-height: 48px;
   background-color: #0278fe;
@@ -12,4 +12,20 @@
 
 .city__button:hover {
   background-color: #0063d2;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 680px) {
+  .city__button {
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 248px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .city__button {
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 288px;
+  }
 }

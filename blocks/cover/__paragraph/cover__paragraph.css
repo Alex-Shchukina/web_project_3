@@ -5,3 +5,12 @@
   text-align: center;
   margin: 0 auto 32px;
 }
+
+@media screen and (max-width: 680px) {
+  .cover__paragraph {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    margin: 0 auto 16px;
+  }
+}

@@ -6,3 +6,14 @@
   text-align: center;
   margin: 0 auto 32px;
 }
+
+@media screen and (max-width: 680px) {
+  .cover__heading {
+    max-width: 288px;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 35px;
+    text-align: center;
+    margin: 0 auto 16px;
+  }
+}

@@ -18,3 +18,23 @@
     line-height: 26px;
   }
 }
+
+@media screen and (max-width: 680px) {
+  .city__paragraph {
+    max-width: 600px;
+    font-size: 16px;
+    line-height: 26px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .city__paragraph {
+    max-width: 280px;
+    font-size: 16px;
+    line-height: 26px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}

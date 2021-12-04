@@ -3,3 +3,10 @@
   max-width: 456px;
   align-self: end;
 }
+
+@media screen and (max-width: 680px) {
+  .city__artist {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
