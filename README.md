@@ -27,4 +27,4 @@ This is a project that showcases the hometowns of some of Practicum's employees.
 
 ### Git Pages
 
-- [Link to the website on Git Pages]()
+- [Link to the website on Git Pages](https://alex-shchukina.github.io/web_project_3/)
