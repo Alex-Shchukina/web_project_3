@@ -1,13 +1,16 @@
 .city__button {
-  grid-area: button;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 248px;
   height: 48px;
-  line-height: 48px;
-  background-color: #0278fe;
-  color: #fff;
-  border-radius: 4px;
-  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.23;
+  color: white;
   text-decoration: none;
+  background-color: #0278fe;
+  border-radius: 4px;
 }
 
 .city__button:hover {

@@ -2,7 +2,7 @@
   grid-area: paragraph;
   max-width: 484px;
   font-size: 18px;
-  line-height: 29.34px;
+  line-height: 1.63;
   margin-bottom: 25px;
   margin-top: 0;
 }
@@ -15,7 +15,7 @@
   .city__paragraph {
     max-width: 352px;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.62;
   }
 }
 
@@ -23,7 +23,7 @@
   .city__paragraph {
     max-width: 600px;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.62;
     margin-left: 16px;
     margin-right: 16px;
   }
@@ -33,7 +33,7 @@
   .city__paragraph {
     max-width: 280px;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.62;
     margin-left: 16px;
     margin-right: 16px;
   }

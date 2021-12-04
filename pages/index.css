@@ -5,7 +5,7 @@
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
-@import url(../blocks/header/__first-illustration/header__first-illustration.css);
+@import url(../blocks/header/__main-illustration/header__main-illustration.css);
 @import url(../blocks/description/description.css);
 @import url(../blocks/description/__header/description__header.css);
 @import url(../blocks/description/__quote/description__quote.css);

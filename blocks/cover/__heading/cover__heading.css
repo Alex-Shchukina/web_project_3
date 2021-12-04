@@ -2,7 +2,7 @@
   max-width: 656px;
   font-size: 72px;
   font-weight: 900;
-  line-height: 76px;
+  line-height: 1.05;
   text-align: center;
   margin: 0 auto 32px;
 }
@@ -12,7 +12,7 @@
     max-width: 288px;
     font-size: 32px;
     font-weight: 900;
-    line-height: 35px;
+    line-height: 1.1;
     text-align: center;
     margin: 0 auto 16px;
   }

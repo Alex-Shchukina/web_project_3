@@ -2,7 +2,7 @@
   max-width: 785px;
   font-weight: 900;
   font-size: 54px;
-  line-height: 58px;
+  line-height: 1.08;
   margin: 0 0 0 148px;
 }
 
@@ -17,25 +17,16 @@
   .description__header {
     max-width: 400px;
     font-size: 38px;
-    line-height: 35px;
+    line-height: 0.9;
     margin: 0 auto 0;
   }
 }
-
-/*@media screen and (max-width: 506px) {
-  .description__header {
-    max-width: 400px;
-    font-size: 38px;
-    line-height: 35px;
-    margin: 0 auto 0;
-  }
-}*/
 
 @media screen and (max-width: 506px) {
   .description__header {
     max-width: 288px;
     font-size: 32px;
-    line-height: 35px;
+    line-height: 1.1;
     margin: 0 auto 0;
   }
 }

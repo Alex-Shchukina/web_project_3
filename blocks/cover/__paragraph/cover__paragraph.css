@@ -1,16 +1,16 @@
 .cover__paragraph {
   max-width: 280px;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 1.23;
   text-align: center;
-  margin: 0 auto 32px;
+  margin: 0;
 }
 
 @media screen and (max-width: 680px) {
   .cover__paragraph {
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.15;
     text-align: center;
-    margin: 0 auto 16px;
+    margin: 0;
   }
 }

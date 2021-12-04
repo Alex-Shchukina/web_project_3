@@ -1,7 +1,7 @@
 .description__main-text {
   max-width: 720px;
   font-size: 16px;
-  line-height: 26.08px;
+  line-height: 1.63;
   margin: 0 0 0 148px;
 }
 
@@ -17,13 +17,6 @@
     margin: 0 auto 0;
   }
 }
-
-/*@media screen and (max-width: 506px) {
-  .description__main-text {
-    max-width: 400px;
-    margin: 0 auto 0;
-  }
-}*/
 
 @media screen and (max-width: 506px) {
   .description__main-text {

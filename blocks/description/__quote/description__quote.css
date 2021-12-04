@@ -15,25 +15,16 @@
   .description__quote {
     max-width: 400px;
     font-size: 24px;
-    line-height: 1.2;
+    line-height: 1.25;
     margin: 40px auto 10px;
   }
 }
-
-/*@media screen and (max-width: 506px) {
-  .description__quote {
-    max-width: 400px;
-    font-size: 24px;
-    line-height: 1.2;
-    margin: 40px auto 10px;
-  }
-}*/
 
 @media screen and (max-width: 506px) {
   .description__quote {
     max-width: 288px;
     font-size: 24px;
-    line-height: 1.2;
+    line-height: 1.25;
     margin: 40px auto 10px;
   }
 }

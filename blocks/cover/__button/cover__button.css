@@ -6,14 +6,21 @@
   min-height: 48px;
   font-size: 18px;
   font-weight: 600;
-  line-height: 22px;
+  line-height: 1.23;
   color: white;
   text-decoration: none;
   background-color: #0278fe;
   border-radius: 4px;
+  margin-top: 32px;
 }
 
 .cover__button:hover {
   background-color: #0063d2;
   cursor: pointer;
+}
+
+@media screen and (max-width: 380px) {
+  .cover__button {
+    margin-top: 16px;
+  }
 }
