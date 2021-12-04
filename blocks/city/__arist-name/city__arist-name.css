@@ -1,5 +1,10 @@
 .city__arist-name {
+  display: block;
   max-width: 456px;
+  max-height: 22px;
   font-size: 18px;
   line-height: 1.22;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
