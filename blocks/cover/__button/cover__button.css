@@ -1,0 +1,14 @@
+.cover__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 137px;
+  min-height: 48px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  color: white;
+  text-decoration: none;
+  background-color: #0278fe;
+  border-radius: 4px;
+}

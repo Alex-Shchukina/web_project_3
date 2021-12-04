@@ -19,17 +19,23 @@
 @media screen and (max-width: 768px) {
   .city {
     grid-template-columns: 340px calc(100% - 340px);
-    margin: 0 auto 80px;
+    margin: 0 16px 80px 16px;
     grid-column-gap: 28px;
     justify-content: center;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 580px) {
   .city {
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     justify-content: center;
-    margin: 0 auto 80px;
+    margin: 0 auto 30px;
+    grid-template-areas:
+      "title"
+      "artist"
+      "image"
+      "paragraph"
+      "button";
   }
 }
