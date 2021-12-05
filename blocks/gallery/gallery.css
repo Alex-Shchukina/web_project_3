@@ -9,7 +9,7 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 1185px) {
+@media screen and (max-width: 1250px) {
   .gallery {
     grid-template-columns: repeat(3, 284px);
     grid-template-rows: auto;
@@ -28,7 +28,7 @@
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 900px) {
   .gallery {
     grid-template-columns: 300px;
     grid-template-rows: auto;
