@@ -27,8 +27,6 @@
 }
 @media screen and (max-width: 380px) {
   .city__button {
-    margin-left: 16px;
-    margin-right: 16px;
     width: 288px;
   }
 }

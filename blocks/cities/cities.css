@@ -1,0 +1,6 @@
+.cities {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 92px auto 118px;
+}

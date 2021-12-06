@@ -3,25 +3,19 @@
   justify-content: center;
   grid-template-rows: auto;
   grid-template-columns: 460px calc(100% - 460px);
-  grid-column-gap: 40px;
-  grid-row-gap: 48px;
-  margin: 0 148px 80px 148px;
+  column-gap: 40px;
+  row-gap: 48px;
+  margin: 0 auto 80px;
   grid-template-areas:
     "title artist"
     "image paragraph"
     "button .";
 }
 
-.city:last-child {
-  margin-bottom: 92px;
-}
-
 @media screen and (max-width: 1100px) {
   .city {
     grid-template-columns: 380px calc(100% - 380px);
     margin: 0 50px 80px 50px;
-    grid-column-gap: 40px;
-    justify-content: center;
   }
 }
 
@@ -29,8 +23,7 @@
   .city {
     grid-template-columns: 340px calc(100% - 340px);
     margin: 0 24px 80px 24px;
-    grid-column-gap: 28px;
-    justify-content: center;
+    column-gap: 28px;
   }
 }
 
@@ -38,7 +31,6 @@
   .city {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    justify-content: center;
     margin: 0 auto 30px;
     grid-template-areas:
       "title"

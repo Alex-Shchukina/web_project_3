@@ -14,17 +14,20 @@
           src="./Images/logo.svg"
           alt="Practicum art gallery logo"
         />
-        <h1 class="header__title">From Homeland to Homeland</h1>
-        <p class="header__subtitle">
-          An epic journey from Kentucky to Burundi through Wales and Ukraine
-        </p>
-        <img
-          class="header__main-illustration"
-          src="./Images/kalegin-michail-179870-unsplash.jpg"
-          alt="Black and white photo of a city by the ocean"
-        />
       </header>
+
       <main class="content">
+        <section class="lead">
+          <h1 class="lead__title">From Homeland to Homeland</h1>
+          <p class="lead__subtitle">
+            An epic journey from Kentucky to Burundi through Wales and Ukraine
+          </p>
+          <img
+            class="lead__main-illustration"
+            src="./Images/kalegin-michail-179870-unsplash.jpg"
+            alt="Black and white photo of a city by the ocean"
+          />
+        </section>
         <section class="description">
           <h2 class="description__header">
             Know the places your online pals come from a little better
@@ -46,65 +49,65 @@
             collection. No matter where you're from, we're glad that you're our
             neighbor.
           </p>
-          <div class="gallery">
-            <img
-              class="gallery__image"
-              src="./Images/river_and_town.jpg"
-              alt="Town by the river"
-            />
+        </section>
+        <section class="gallery">
+          <img
+            class="gallery__image"
+            src="./Images/river_and_town.jpg"
+            alt="Town by the river"
+          />
 
-            <img
-              class="gallery__image"
-              src="./Images/sky_and_town.jpg"
-              alt="Sky ocean and town"
-            />
+          <img
+            class="gallery__image"
+            src="./Images/sky_and_town.jpg"
+            alt="Sky ocean and town"
+          />
 
-            <img
-              class="gallery__image"
-              src="./Images/church.jpg"
-              alt="Church and dawn"
-            />
+          <img
+            class="gallery__image"
+            src="./Images/church.jpg"
+            alt="Church and dawn"
+          />
 
-            <img
-              class="gallery__image"
-              src="./Images/river_bridge_city.jpg"
-              alt="City and bridge over river"
-            />
+          <img
+            class="gallery__image"
+            src="./Images/river_bridge_city.jpg"
+            alt="City and bridge over river"
+          />
 
-            <img
-              class="gallery__image"
-              src="./Images/field_and_sky.jpg"
-              alt="Green summer field and blue sky"
-            />
+          <img
+            class="gallery__image"
+            src="./Images/field_and_sky.jpg"
+            alt="Green summer field and blue sky"
+          />
 
-            <img
-              class="gallery__image"
-              src="./Images/street_bushes.jpg"
-              alt="Bushes along a city road"
-            />
+          <img
+            class="gallery__image"
+            src="./Images/street_bushes.jpg"
+            alt="Bushes along a city road"
+          />
 
-            <img
-              class="gallery__image"
-              src="./Images/hut_and_man.jpg"
-              alt="A man in front of the ethnic hut"
-            />
+          <img
+            class="gallery__image"
+            src="./Images/hut_and_man.jpg"
+            alt="A man in front of the ethnic hut"
+          />
 
-            <img
-              class="gallery__image"
-              src="./Images/field_and_houses.jpg"
-              alt="Summer hills and houses nearby"
-            />
-          </div>
+          <img
+            class="gallery__image"
+            src="./Images/field_and_houses.jpg"
+            alt="Summer hills and houses nearby"
+          />
         </section>
         <section class="cities">
           <article class="city">
             <h2 class="city__title">Kyiv, Ukraine</h2>
-            <section class="city__artist">
+            <div class="city__artist">
               <span class="city__arist-heading">Artist</span>
               <span class="city__arist-name"
                 >Natalia Dolgushina, content producer</span
               >
-            </section>
+            </div>
             <img
               class="city__image"
               src="./Images/river_bridge_city_2.jpg"
@@ -137,13 +140,13 @@
           </article>
           <article class="city">
             <h2 class="city__title">Cricieth, Wales</h2>
-            <section class="city__artist">
+            <div class="city__artist">
               <span class="city__arist-heading">Artist</span>
               <span class="city__arist-name">Steffan Warren, lead editor</span>
               <span class="city__arist-name"
                 >Kseniya Glagoleva, project manager</span
               >
-            </section>
+            </div>
             <img
               class="city__image"
               src="./Images/sky_and_town_2.jpg"
@@ -176,12 +179,12 @@
           </article>
           <article class="city">
             <h2 class="city__title">Berea, USA</h2>
-            <section class="city__artist">
+            <div class="city__artist">
               <span class="city__arist-heading">Artist</span>
               <span class="city__arist-name"
                 >Travis Turner, author and editor</span
               >
-            </section>
+            </div>
             <img
               class="city__image"
               src="./Images/Berea_USA.jpg"
@@ -214,12 +217,12 @@
           </article>
           <article class="city">
             <h2 class="city__title">Muramvya, Burundi</h2>
-            <section class="city__artist">
+            <div class="city__artist">
               <span class="city__arist-heading">Artist</span>
               <span class="city__arist-name"
                 >Grevisse Kenguruka, tech editor</span
               >
-            </section>
+            </div>
             <img
               class="city__image"
               src="./Images/Muramvya_Burundi.jpg"
@@ -259,12 +262,12 @@
           </article>
           <article class="city">
             <h2 class="city__title">Meitar, Israel</h2>
-            <section class="city__artist">
+            <div class="city__artist">
               <span class="city__arist-heading">Artist</span>
               <span class="city__arist-name"
                 >Alex Shchukina, web developer</span
               >
-            </section>
+            </div>
             <img
               class="city__image"
               src="./Images/Meitar-city.jpg"
@@ -294,9 +297,10 @@
         <section class="cover">
           <div class="cover__container">
             <h2 class="cover__heading">Visit us</h2>
-            <p class="cover__paragraph">Year-round</p>
-            <p class="cover__paragraph">Practicum Art Gallery</p>
-            <p class="cover__paragraph">404 Tim Berners-Lee Ave</p>
+            <p class="cover__paragraph">
+              Year&#8209;round Practicum&nbsp;Art&nbsp;Gallery&#8288;
+              404&nbsp;Tim Berners&#8209;Lee&nbsp;Ave;
+            </p>
             <a class="cover__button" href="#">Buy tickets</a>
           </div>
         </section>

@@ -31,26 +31,15 @@
 
 @media screen and (max-width: 768px) {
   .cover__container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     width: 100%;
     min-height: 746px;
-    background-image: url(../../../Images/field_and_sky_2.jpg);
-    background-size: cover;
     margin: 0 auto 64px;
   }
 }
 
 @media screen and (max-width: 680px) {
   .cover__container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 100%;
+    width: 100%;
     min-height: 254px;
-    background-image: url(../../../Images/field_and_sky_2.jpg);
-    background-size: cover;
-    margin: 0 auto 64px;
   }
 }
