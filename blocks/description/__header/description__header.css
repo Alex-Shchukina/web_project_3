@@ -9,7 +9,6 @@
 @media screen and (max-width: 1100px) {
   .description__header {
     max-width: 720px;
-    margin: 0 auto 0;
   }
 }
 

@@ -1,19 +1,16 @@
 .cover__paragraph {
-  max-width: 280px;
+  max-width: 256px;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.23;
   text-align: center;
   margin: 0 auto;
-  padding-left: calc((100% - 221px) / 2);
-  padding-right: calc((100% - 221px) / 2);
 }
 
 @media screen and (max-width: 680px) {
   .cover__paragraph {
+    max-width: 199px;
     font-size: 14px;
     line-height: 1.15;
-    padding-left: calc((100% - 173px) / 2);
-    padding-right: calc((100% - 173px) / 2);
   }
 }

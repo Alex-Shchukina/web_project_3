@@ -1,4 +1,11 @@
 .description {
   margin-top: 92px;
   padding-bottom: 92px;
+  padding-right: 199px;
+}
+
+@media screen and (max-width: 1100px) {
+  .description {
+    padding-right: 0;
+  }
 }

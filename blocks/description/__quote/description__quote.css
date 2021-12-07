@@ -4,6 +4,13 @@
   font-weight: 400;
   line-height: 1.4;
   margin: 40px auto 10px;
+  padding-right: 65px;
+}
+
+@media screen and (max-width: 1100px) {
+  .description__quote {
+    padding-right: 0;
+  }
 }
 
 @media screen and (max-width: 755px) {
