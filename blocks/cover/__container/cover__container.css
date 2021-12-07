@@ -33,7 +33,7 @@
   .cover__container {
     width: 100%;
     min-height: 746px;
-    margin: 0 auto 64px;
+    margin: 0 auto 88px;
   }
 }
 
@@ -41,5 +41,6 @@
   .cover__container {
     width: 100%;
     min-height: 254px;
+    margin: 0 auto 64px;
   }
 }
