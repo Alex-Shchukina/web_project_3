@@ -2,5 +2,11 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 92px auto 118px;
+  margin: 0 auto 92px;
+}
+
+@media screen and (max-width: 320px) {
+  .cities {
+    margin: 0 auto 64px;
+  }
 }
