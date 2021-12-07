@@ -1,7 +1,7 @@
 .city {
   display: grid;
   justify-content: center;
-  grid-template-rows: auto;
+  grid-template-rows: auto 460px auto;
   grid-template-columns: 460px 1fr;
   column-gap: 40px;
   row-gap: 48px;
@@ -15,12 +15,14 @@
 @media screen and (max-width: 1100px) {
   .city {
     grid-template-columns: 380px 1fr;
+    grid-template-rows: auto 380px auto;
   }
 }
 
 @media screen and (max-width: 768px) {
   .city {
     grid-template-columns: 340px 1fr;
+    grid-template-rows: auto 340px auto;
     margin: 0 auto 72px;
     column-gap: 28px;
   }
