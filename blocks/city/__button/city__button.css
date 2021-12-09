@@ -18,6 +18,18 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 1029px) {
+  .city__button {
+    margin-top: 48px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .city__button {
+    margin-top: 0;
+  }
+}
+
 @media screen and (max-width: 680px) {
   .city__button {
     margin-left: 16px;

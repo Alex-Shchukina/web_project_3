@@ -1,4 +1,17 @@
 .city__image {
   grid-area: image;
   width: 100%;
+  margin-bottom: 48px;
+}
+
+@media screen and (max-width: 1029px) {
+  .city__image {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .city__image {
+    margin-bottom: 0;
+  }
 }

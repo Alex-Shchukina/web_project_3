@@ -2,6 +2,13 @@
   grid-area: artist;
   max-width: 456px;
   align-self: end;
+  margin-bottom: 48px;
+}
+
+@media screen and (max-width: 750px) {
+  .city__artist {
+    margin-bottom: 0;
+  }
 }
 
 @media screen and (max-width: 680px) {
